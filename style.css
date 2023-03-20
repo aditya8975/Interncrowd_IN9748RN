@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+
+   padding-right: 3%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.header {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: green;
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: 50px;
+ 
+}
+h1:hover{
+    color: rgb(0, 219, 0);
+    margin-bottom: 30px;
+
+}
+
+.logo {
+    width: 80px;
+
+
+}
+.logo:hover {
+    width: 90px;
+    background-color: #378de5;
+}
+nav {
+    flex: 1;
+    padding-left: 450px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #afbaeb;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+  
+    font-weight: 900;
+ display: flex;
+   
+}
+
+nav ul li a:hover{
+  color: #ffffff;
+  background-color: #3a6fff;
+ border-radius: 15px;
+ margin-bottom: 5px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .text {
+    position: relative;
+    max-width: 600px;
+}
+.content .text h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 80px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    font-size: 40px;
+    color: #4b7bff;
+}
+.content .text h1 span {
+    font-size: 50px;
+
+}
+.content .text p {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 40px;
+    color: #828fdb;
+ }
+.btn{
+    background: #c72323;
+    margin-top: 60px;
+    margin-left: 140px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: .5s;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 1px 4px 12px rgba(194, 74, 74, 0.432);
+}
+
+.img{background-image: url(p3.jpeg);
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 600px;
+    margin-top: 80px;
+    padding-left: 660px;
+    justify-content: flex-end;
+ 
+    
+}
+.img:hover{
+    height: 105%;
+}
